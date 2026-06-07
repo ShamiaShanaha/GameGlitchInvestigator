@@ -6,7 +6,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 First Bug: I expected the hint text to tell the user to go lower when the guess is too high and to go higher when the guess is too low. But the hint messages are reversed: when the guess is too high, the game tells me to go higher.
 
-Second Bug: I expected the game instructions to match the selected difficulty range. When I selected Hard mode, the sidebar showed a range of 1 to 50, but the game still displayed "Guess a number between 1 and 100." This makes the instructions confusing and inconsistent with the actual game settings.
+Second Bug: I expected the game instructions to match the difficulty range, but when I selected Hard mode, it showed that the range was 1 to 50, but the game kept giving me secret numbers that went above the range.
 
 Third Bug: I expected Hard mode to be more difficult than Normal mode. However, Hard mode uses a range of 1–50 while Normal mode uses a range of 1–100. Because there are fewer possible numbers in Hard mode, it may actually be easier than Normal mode.
 
