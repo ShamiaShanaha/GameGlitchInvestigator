@@ -33,11 +33,16 @@ It wrote the code, ran away, and now the game is unplayable.
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User selects difficulty as Normal
+2. Game generates a secret number between 1 and 50
+3. User enters a guess of 40
+4. Game returns "📈 Go HIGHER!" because the guess is too low
+5. Score and attempt counter update
+6. User enters a guess of 70
+7. Game returns "📉 Go LOWER!" because the guess is too high
+8. Score updates again based on the outcome
+9. User enters a correct guess matching the secret number
+10. Game returns "🎉 Correct!", shows balloons, and ends the game with a win message
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
